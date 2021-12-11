@@ -1,0 +1,99 @@
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --primary-color: #9608ce;
+}
+
+
+.input {
+  font-size: 14px;
+  outline: rgb(11, 247, 227);
+  padding: 0.9rem 1rem;
+  margin: 1rem;
+  border: 4px solid var(--primary-color);
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 258px;
+}
+
+
+
+.background-color{
+  background-color: rgb(130, 15, 238);
+}
+
+th,
+td {
+  border: 20px solid var(--primary-color);
+  width: 0%;
+  border-collapse: collapse;
+  padding: 0.4rem;
+}
+
+
+footer {
+  text-align: center;
+}
+
+footer p {
+  font-size: large;
+  text-align: center;
+}
+
+.footer-list {
+  margin: 1rem;
+}
+
+a,
+img,
+li {
+  display: inline;
+}
+
+img {
+  width: 40px;
+  padding: 0.2rem;
+}
+
+#check-button {
+    background: var(--primary-color);
+    border: none;
+    color: rgb(7, 11, 253);
+    padding: 0.10rem 1rem;
+    border-radius: 0.10rem;
+    font-size: large;
+    cursor: pointer;
+    outline: rgb(9, 82, 238);
+    margin: auto;
+    display: block;
+  }
+.btn{
+    bottom: rgb(4, 152, 221);
+}
+
+button{
+
+  background-color: var(--background-dark);
+
+  padding: 0.6rem 1rem;
+  border-radius: 0.8rem;
+  font-size: large;
+  cursor: pointer;
+  outline: var(--blue);
+  margin: auto;
+  display: block;
+}
